@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="22px" viewBox="0 0 54 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3双向标记</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="opm图标" transform="translate(-1324.000000, -278.000000)">
+            <g id="3双向标记" transform="translate(1324.000000, 278.000000)">
+                <rect id="矩形" x="0" y="0" width="54" height="22"></rect>
+                <line x1="5.28964233" y1="15.5408686" x2="49.8396423" y2="6.06086861" id="路径" stroke="#999999" stroke-width="1.5"></line>
+                <polygon id="路径-5" fill="#999999" points="43.3116528 4 41.2278748 4.8755854 49.9462891 6.80762276 53.1037903 6.06086861"></polygon>
+                <polygon id="路径-5" fill="#999999" transform="translate(8.003342, 16.200356) scale(-1, -1) translate(-8.003342, -16.200356) " points="4.18335691 14.7965449 2 15.6802785 10.8179932 17.6041676 14.0066833 16.8598439"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

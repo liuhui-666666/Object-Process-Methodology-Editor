@@ -1,0 +1,458 @@
+/* 
+ * Author: Michal Zavadil, Brno University of Technology - Faculty of Information Technology
+ * Copyright: Copyright 2022, OPM Editor
+ * License: MIT
+ * Made for Bachelor's Thesis - Agile Model Editor
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+#root {
+	background-color: #dee2e6;
+	height: 100%;
+}
+
+.app {
+	text-align: center;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+.flex-vertical-wrapper {
+	display: flex;
+	flex-flow: column;
+	height: 100vh;
+}
+
+.top-toolbar-wrapper {
+	height: 6.5vh;
+}
+
+.top-toolbar {
+	height: 100%;
+	background-color: #1A3763;
+	border-bottom: 2.5px #adb5bd solid;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+
+.top-toolbar-right{
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	width:70vw;
+	flex-wrap: wrap;
+	padding-right:50px;
+}
+.top-toolbar .title-content{
+	display:flex;
+	align-items: center;
+	width:30vw
+  }
+.top-toolbar .title-content .app-title {
+	margin-left:0.5vh;
+	color:rgba(255, 255, 255, 0.87);
+	letter-spacing: 0.2em;
+	font-size:2.5vh;
+	font-weight:600;
+	margin-top:-4px;
+}
+.top-toolbar .title-content .top-logo{
+   width:2vw;
+   height:3vh;
+   margin-left: 1vw;
+   background:url(../static/images/title.svg) no-repeat;
+   background-size: 100% 100%;
+
+}
+.propagation-wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: 3px;
+	margin-right: 20px;
+}
+.bottom-flex-horizontal-wrapper {
+	overflow: hidden;
+}
+.left-flex-horizontal-wrapper {
+	flex: 1;
+	overflow: hidden;
+	display: flex;
+	flex-flow: row;
+	flex-direction: row-reverse;
+}
+.left-sidebar-content{
+	height: 94vh;
+	box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+	 /* background-color: #eeaaaa; */
+}
+.bottom-sidebar-content{
+	height:13.9vh;
+	display: flex;
+}
+.left-sidebar-wrapper {
+	height: auto;
+	width:12.7vw;
+	flex: 0 0 12.7vw;
+}
+.bottom-sidebar-wrapper {
+	height:14vh;
+	border-top: 1px #adb5bd solid;
+	background-color: #ffffff;
+	overflow: auto;
+}
+.left-diagram-canvas-wrapper{
+	flex: 1 1 auto;
+	overflow: hidden;
+}
+.bottom-diagram-canvas-wrapper {
+	height:80vh;
+}
+
+.top-toolbar .demo-selection {
+	margin: 5px;
+	width: 120px;
+}
+.left-sidebar {
+	display: flex;
+	flex-direction: column;
+	height: 47vh;
+	overflow: auto;
+	border: 2px #adb5bd solid;
+	border-right: 0px #adb5bd solid;
+	border-top: 0px;
+	border-left: 0px;
+	/* background-color: rgb(238, 239, 241); */
+	background-color: #fff;
+	width:100%;
+	/* spatne */
+}
+.bottom-sidebar {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	border: 1px #adb5bd solid;
+	border-top: 0px;
+	border-left: 0px;
+	/* background-color:#F8F8F8; */
+	background-color: #fff;
+	width:100%;
+	overflow: auto;
+	/* spatne */
+}
+.ant-tree{
+	/* background-color: rgb(238, 239, 241) !important; */
+	background-color: #fff !important;
+}
+.ant-tree-show-line .ant-tree-switcher {
+	/* background-color: rgb(238, 239, 241)!important; */
+	background-color: #fff!important;
+}
+.diagram-canvas {
+	position: relative;
+	text-align: left;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.display-block {
+	display: block;
+}
+
+.export-icon {
+	font-size: 36px;
+	height: 100%;
+}
+
+.top-toolbar .export-button {
+	padding: 0px;
+	border: 0px;
+	margin-right: 1vw;
+	height: fit-content;
+}
+
+.renameDialog{
+	background-color: #dee2e6;
+	padding: 5px;
+	border: black 1.5px solid;
+}
+.renameDialog > * {
+	margin: 2px;
+}
+.renameDialog > button {
+	border-width: 0;
+	background-color: white;
+	border-radius: 2px;
+}
+
+.renameDialog > button:hover {
+	color: #1890ff;
+	transition: 0.3s;
+}
+
+.renameDialog > input {
+	border: black 1.5px solid;
+	border-radius: 2px;
+}
+
+.cytoscapeEdgeSelectionCard {
+	width: 100%;
+	height: 100%;
+}
+
+.top-node{
+	width:200px;
+	height:80%;
+	margin-left:-840px;
+	border-radius: 3px;;
+	background-color: rgba(255, 255, 255, 0.1);
+	padding:5px;
+	margin-top:8px;
+	display: flex;
+	justify-content:space-around;
+
+}
+.top-rectangle{
+	width:80px;
+	height:100%;
+	border:3px solid  rgb(112, 228, 131);
+	border-radius: 6px;
+}
+.top-circle{
+	width:80px;
+	height:100%;
+	border:3px solid  rgb(59, 195, 255);
+	border-radius:50%;
+}
+.ant-typography{
+	color:#ffffff !important;
+}
+.export-button{
+	background:#1A3763 !important;
+	color:#ffffff !important
+}
+.ant-btn-icon-only.ant-btn-lg > *{
+   font-size:2.9vh !important;
+}
+.ant-btn-icon-only.ant-btn-lg{
+  width:3vh !important;
+  height:3vh !important;
+  padding:0 !important;
+}
+
+.cy-context-menus-cxt-menuitem{
+	padding:8px 20px !important;
+}
+.projectTop{
+	height:9vh;
+	width:100%;
+	/* background:rgba(120, 168, 241, 0.2); */
+	color: #1A3763; 
+	opacity: 0.7;
+	font-weight: bold;
+	font-size:2vh;
+}
+.projectTopTitle{
+	height:4vh;
+    line-height:4vh
+}
+/* 在全局 CSS 文件中 */
+.ant-input-search .ant-input {
+	border-radius: 5px 
+  }
+  .ant-input-search > .ant-input-group > .ant-input-group-addon:last-child {
+    border-radius: 0 5px 5px 0 !important;
+}
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button{
+	border-radius: 0 5px 5px 0 !important;
+}
+
+.diagram-tree{
+	height:37vh;
+	overflow: auto;
+}
+.ant-btn-icon-only{
+	width:4vh !important;
+}
+.ant-btn-icon-only > * {
+   font-size:3vh !important;
+}
+.ant-input-search-button{
+	height: 4vh !important;
+}
+.ant-input{
+	height: 4vh !important;
+}
+.ant-input-group{
+  line-height:0 !important;
+}
+/* 导航窗口 */
+.cytoscape-navigator {
+	position: fixed;  /* 使用固定定位 */
+	right: 0vh;         /* 将div定位到浏览器窗口的右侧 */
+	bottom: 0vh;
+	width: 30vh;
+	height: 25vh; 
+	border:1px solid rgba(120, 168, 241, 0.2);
+	background-color: #fbfbfb;
+  }
+  .resizer {  
+	width: 1px; /* 调节器宽度 */  
+	cursor: ew-resize; /* 鼠标形状 */  
+	background-color: #ccc;  
+	user-select: none; /* 禁止选择文本 */  
+	height:94vh;
+	top:6vh;
+  }
+  .toolBar{
+	width:60px;
+	height:94vh;
+	top:6vh;
+	background-color: #fbfbfb;
+	border-right:1px solid #ccc;
+	padding-top:20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  .toolBar div {
+	width:70%;
+	padding:10px 0 10px 0;
+	/* background:linear-gradient(180deg, rgba(120, 168, 241, 0), rgba(120, 168, 241, 0.2))!important; */
+	border:1px solid rgba(120, 168, 241);
+	margin-bottom: 20px;
+	color:#1A3763;
+	writing-mode: vertical-lr;
+	display: flex;             /* 使用flex布局 */
+	align-items: center;       /* 垂直居中 */
+	justify-content: center;  
+	cursor: pointer;
+	gap: 5px;
+	border-radius: 5px;
+  }
+  .toolBar div:hover{
+	color:#1890ff;
+	width:80%;
+  }
+  .toolBarSelect{
+	color: #1890ff !important;;
+	width: 80% !important;
+  }
+  .contentProvider{
+	color:rgb(158, 148, 148);
+	position: absolute;
+	right:45vw;
+	bottom:2px;
+	z-index: 9999;
+  }
+
+  .loginButton{
+	height: 35px!important;
+	line-height:35px!important;
+	padding:0 15px!important;
+	border-radius: 16px !important;
+	background:linear-gradient(135deg, #08629a, #1A3763)!important;
+	border:#1A3763!important;
+	color:#fff !important;
+	font-weight:500!important;
+	font-size:14px !important;
+  }
+  .loginButton:hover{
+	color:#0ed6e1 !important;
+  }
+.openDrawer {
+	position: absolute !important;
+	right:0 !important;
+	top:6.5vh !important;
+	z-index: 999 !important;
+	padding:0px !important;
+	border:0px !important; 
+	/* width:50px!important;
+	height:200px!important; */
+}
+.openDrawer span{
+	color:#1A3763;
+}
+.closeDrawer{
+	color:rgba(120, 168, 241, 0.8)!important;
+	font-size:20px;
+	margin-bottom: 10px;
+}
+.closeDrawer:hover{
+	color:rgba(41, 123, 246, 0.8)!important;
+	font-size:24px;
+}
+/* Drawer.css */
+.drawer {
+    position: fixed;
+    top: 6.5vh;
+    right: 0;
+    width: 300px; /* 可以根据需要调整宽度 */
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    /* transform: translateX(100%);
+    transition: transform 3s ease-in-out;  */
+    z-index: 1000; /* 确保抽屉在最上层 */
+  }
+  .drawer-left{
+    /* right: 0; */
+    /* width: 300px; 可以根据需要调整宽度 */
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    /* transform: translateX(100%);
+    transition: transform 3s ease-in-out;  */
+    /* z-index: 1000; 确保抽屉在最上层 */
+	overflow: hidden;
+  }
+  .open {
+	transform: translateX(0);
+  }
+  .drawer-title{
+	display:flex;
+	width:100%;
+	height:40px;
+	align-items: center;
+	padding-left:15px;
+	position: relative;
+  }
+  .historyButton{
+	position: absolute;
+	right:10px;
+	top:10px;
+  }
+  .drawer-Name{
+	display:flex;
+	width:100%;
+	height:40px;
+	align-items: center;
+	padding-left:14px;
+	color:#1A3763;
+	font-size:14px;
+	font-weight:700;
+  }
+  .drawer-title span {
+	color:#1A3763;
+	font-size:16px;
+	font-weight:700;
+  }
+  .drawer-content {
+    padding: 10px;
+    height: 100%;
+	overflow: hidden;
+    overflow-y: auto; 
+	/* background-color: #08629a; */
+  }
+  /* 当抽屉打开时 */
+  .drawer.open {
+    transform: translateX(0); /* 抽屉移动到屏幕内 */
+  }
+  .drawer-content span:hover{
+   color:skyblue
+  }

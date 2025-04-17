@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="24px" viewBox="0 0 61 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tagged</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tagged">
+            <rect id="矩形" x="0" y="0" width="61" height="24"></rect>
+            <g id="编组" transform="translate(4.270308, 5.950692)">
+                <polygon id="形状结合" fill="#979797" fill-rule="nonzero" points="44.9869306 0 52.6257273 1.70258177 46.6803838 6.79207008 48.78 3.296 48.342 2.016"></polygon>
+                <line x1="0" y1="13.1459877" x2="50.4724537" y2="2.12645644" id="路径-4" stroke="#979797" stroke-width="1.5" stroke-dasharray="2"></line>
+            </g>
+        </g>
+    </g>
+</svg>

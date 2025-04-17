@@ -1,0 +1,17 @@
+.content{
+    width:60vw;
+    .listBox{
+        width:60vw;
+        height:60vh;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+        div{
+            width:18vw;
+            height:58vh;
+            border:1px solid #ccc;
+            margin-left:1vw;
+            margin-top: 1vh;
+        }
+    }
+}

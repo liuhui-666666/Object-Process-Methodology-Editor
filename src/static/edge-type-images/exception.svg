@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="22px" viewBox="0 0 54 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5超时例外</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="opm图标" transform="translate(-1323.000000, -426.000000)">
+            <g id="5超时例外" transform="translate(1323.000000, 426.000000)">
+                <rect id="矩形" x="0" y="0" width="54" height="22"></rect>
+                <line x1="5" y1="17.7564802" x2="49.55" y2="8.27648023" id="路径" stroke="#999999" stroke-width="1.5"></line>
+                <polygon id="矩形" fill="#D8D8D8" transform="translate(43.700722, 9.359792) rotate(8.000000) translate(-43.700722, -9.359792) " points="43.0213827 5.50849171 44.458872 5.06370484 44.458872 13.0637048 42.9425723 13.6558787"></polygon>
+                <polygon id="矩形" fill="#979797" fill-rule="nonzero" transform="translate(43.700722, 9.359792) rotate(8.000000) translate(-43.700722, -9.359792) " points="44.458872 5.06370484 44.458872 13.0637048 42.9425723 13.6558787 43.0213827 5.50849171"></polygon>
+                <polygon id="矩形" fill="#D8D8D8" transform="translate(40.675371, 9.839343) rotate(8.000000) translate(-40.675371, -9.839343) " points="39.9523103 5.89933335 41.3984318 5.49491763 41.3941088 13.6260424 39.9561482 14.1837685"></polygon>
+                <polygon id="矩形" fill="#979797" fill-rule="nonzero" transform="translate(40.675371, 9.839343) rotate(8.000000) translate(-40.675371, -9.839343) " points="41.3984318 5.49491763 41.3941088 13.6260424 39.9561482 14.1837685 39.9523103 5.89933335"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

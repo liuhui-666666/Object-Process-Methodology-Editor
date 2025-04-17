@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="22px" viewBox="0 0 54 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4超时异常</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="opm图标" transform="translate(-1323.000000, -362.000000)">
+            <g id="4超时异常" transform="translate(1323.000000, 362.000000)">
+                <rect id="矩形" x="0" y="0" width="54" height="22"></rect>
+                <polygon id="路径" fill="#999999" fill-rule="nonzero" points="49.3938992 6.53659309 49.7061008 8.00374342 5.15610084 17.4837434 4.84389916 16.0165931"></polygon>
+                <polygon id="矩形" fill="#D8D8D8" transform="translate(43.750000, 8.165788) rotate(8.000000) translate(-43.750000, -8.165788) " points="43.0145269 4.26915244 44.4854731 4.06242442 44.4854731 12.0624244 43.0145269 12.2691524"></polygon>
+                <polygon id="矩形" fill="#979797" fill-rule="nonzero" transform="translate(43.750000, 8.165788) rotate(8.000000) translate(-43.750000, -8.165788) " points="44.4854731 4.06242442 44.4854731 12.0624244 43.0145269 12.2691524 43.0145269 4.26915244"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

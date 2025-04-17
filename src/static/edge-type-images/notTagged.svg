@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="22px" viewBox="0 0 54 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2非时许链接</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="opm图标" transform="translate(-1324.000000, -205.000000)">
+            <g id="2非时许链接" transform="translate(1324.000000, 205.000000)">
+                <rect id="矩形" x="0" y="0" width="54" height="22"></rect>
+                <line x1="3" y1="16.4038398" x2="47.55" y2="6.92383976" id="路径" stroke="#999999" stroke-width="1.5"></line>
+                <polygon id="路径-5" fill="#999999" points="40.7894386 4 38.4942654 4.87433579 47.4240748 6.80762276 41.0309742 12.6846015 43.3630371 12.6846015 50.4942654 5.93579079"></polygon>
+                <rect id="矩形" stroke="#979797" fill="#D8D8D8" transform="translate(37.500000, 9.153840) rotate(75.000000) translate(-37.500000, -9.153840) " x="33.5" y="8.90383976" width="8" height="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

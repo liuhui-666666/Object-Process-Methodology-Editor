@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6聚合-分散（缺失）</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="opm图标" transform="translate(-1512.000000, -132.000000)" stroke="#999999">
+            <g id="6聚合-分散（缺失）" transform="translate(1513.000000, 133.000000)">
+                <polygon id="路径" stroke-width="0.5" fill="#999999" fill-rule="nonzero" transform="translate(5.828494, 5.425854) rotate(-89.000000) translate(-5.828494, -5.425854) " points="1.63406917 -0.330314465 10.0229194 5.41843617 1.83501775 11.1820219"></polygon>
+                <polyline id="路径" stroke-width="0.68904886" points="5.85621068 3.19864542 5.89043344 0 0.975218239 0"></polyline>
+                <polyline id="路径" stroke-width="0.68904886" points="12 13 5.82152855 13 5.82313634 9.41569721"></polyline>
+                <line x1="10.1783285" y1="10.890625" x2="1.17832851" y2="10.890625" id="路径" stroke-width="0.68904886"></line>
+                <polygon id="路径" stroke-width="0.5" fill="#999999" fill-rule="nonzero" transform="translate(5.869707, 5.755235) rotate(-89.000000) translate(-5.869707, -5.755235) " points="2.93549978 2.06558369 8.80391413 5.75014465 3.06430598 9.44488612"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

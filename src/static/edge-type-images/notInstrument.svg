@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="24px" viewBox="0 0 61 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-2">
+            <rect id="矩形" x="0" y="0" width="61" height="24"></rect>
+            <g id="编组" transform="translate(5.000000, 5.000000)">
+                <ellipse id="椭圆形" stroke="#979797" stroke-width="0.5374677" cx="48.6408269" cy="3.33333333" rx="3.09043928" ry="3.06459948"></ellipse>
+                <line x1="0.0671834625" y1="13.9333333" x2="45.2144703" y2="4.33333333" id="直线" stroke="#979797" stroke-width="1.34366925" stroke-linecap="square"></line>
+                <polygon id="矩形" fill="#999999" transform="translate(42.728682, 4.933333) rotate(75.000000) translate(-42.728682, -4.933333) " points="40.7284188 4.53431624 44.7304959 4.5265643 44.7289455 5.33235043 40.7268684 5.34010236"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

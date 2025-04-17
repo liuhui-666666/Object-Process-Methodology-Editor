@@ -1,0 +1,16 @@
+.page{
+  padding:20px;
+  display: flex;
+  height:90vh;
+  .pic{
+    width:40vw;
+    height:80vh;
+    background:url(../../../../static/images/page8.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  .hero{
+    width:60vw;
+    padding:10vh 0;
+  }
+
+}
