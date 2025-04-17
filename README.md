@@ -3,7 +3,7 @@
 The Object-Process-Methodology-Editor allows users to create model elements such as objects, processes, and their relationships based on the theory and methodology of OPM. Users can use it to construct clear and standardized system models for representing various industrial systems.
 
 ## Build instructions
-The lastest build is available [here](https://www.opmodel.cn/).
+The lastest build is available [here](http://www.opmodel.cn/).
 
 To build locally run `npm install` before building.
 
